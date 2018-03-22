@@ -1,0 +1,24 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.tektutor</groupId>
+	<artifactId>tektutor-plugin-testerapp</artifactId>
+	<version>1.0.0</version>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.tektutor</groupId>
+				<artifactId>tektutor-hello-plugin</artifactId>
+				<version>1.0.0</version>
+				<executions>
+					<execution>
+					   <goals>
+						<goal>sayHello</goal>
+					   </goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>
